@@ -90,3 +90,10 @@ window.handleKeyboardInput = handleKeyboardInput;
 
 // Add event listener for keydown
 document.addEventListener("keydown", handleKeyboardInput);
+function changeText(element, isHovered) {
+  if (isHovered) {
+    element.innerText = "Thala for a reason";
+  } else {
+    element.innerText = "Mihir's Calculator";
+  }
+}
