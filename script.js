@@ -92,7 +92,7 @@ window.handleKeyboardInput = handleKeyboardInput;
 document.addEventListener("keydown", handleKeyboardInput);
 function changeText(element, isHovered) {
   if (isHovered) {
-    element.innerText = "Thala for a reason";
+    element.innerText = "Harsheeess";
   } else {
     element.innerText = "Mihir's Calculator";
   }
